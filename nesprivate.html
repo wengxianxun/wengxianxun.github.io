@@ -129,7 +129,7 @@
 <h3>一、我们可能收集的信息</h3>
 <p>为了向您提供更优质、稳定的服务，同时保障服务安全与反作弊，我们会在您使用服务时收集以下信息：</p>
 <ul>
-    <li><strong>设备信息：</strong>包括设备标识符（IMEI、Android ID、OAID、IDFA、MAC地址）、设备型号、操作系统版本、制造商信息、屏幕分辨率、CPU/GPU信息、电池状态、硬盘信息等。</li>
+    <li><strong>设备信息：</strong>包括设备标识符（IMEI、Android ID、OAID、GAID（Google Advertising ID，即谷歌广告ID）、IDFA、MAC地址）、设备型号、操作系统版本、制造商信息、屏幕分辨率、CPU/GPU信息、电池状态、硬盘信息等。</li>
     <li><strong>网络信息：</strong>IP地址、网络类型（Wi-Fi/蜂窝网络）、运营商信息、时区、语言设置等。</li>
     <li><strong>应用信息：</strong>应用版本、分发渠道、SDK版本、运行中进程信息、已安装软件列表（仅用于广告SDK防作弊及交互需要）等。</li>
     <li><strong>日志信息：</strong>您使用服务时的操作记录、搜索内容、访问时间、使用时长等。</li>
@@ -229,6 +229,18 @@
         <td>读取Android ID</td>
         <td>T我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID/IP地址/SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。</td>
     </tr>
+    <tr>
+        <td>优量汇SDK</td>
+        <td>（第三方SDK）</td>
+        <td>读取Android ID、IP地址</td>
+        <td>我们的产品集成优量汇SDK，该SDK为提供广告投放及反作弊服务，会获取您的Android ID及IP地址，用于广告匹配、地域定向及防欺诈识别。我们已通过弹窗告知并取得用户同意，详情可见SDK说明文档。</td>
+    </tr>
+    <tr>
+        <td>Google Mobile Ads SDK</td>
+        <td>（第三方SDK）</td>
+        <td>获取设备传感器信息（如加速度、陀螺仪）</td>
+        <td>我们的产品集成Google Mobile Ads SDK，该SDK为提供个性化广告投放及广告效果优化，会获取设备传感器信息用于广告互动效果及防作弊。我们已通过弹窗告知并取得用户同意，详情可见SDK说明文档。</td>
+    </tr>
     
 
 </table>
@@ -249,7 +261,7 @@
 <p>我们不会向第三方出售或共享您的个人信息，但以下情况除外：</p>
 <ul>
     <li><strong>获得您的明确同意后；</strong></li>
-    <li><strong>与第三方SDK合作方：</strong>为提供广告、登录、数据统计等服务，我们会接入优量汇、广点通、Tap登录等SDK，其可能按照《SDK技术说明文档》中的约定采集部分匿名设备信息；我们要求合作方遵守隐私保护标准；</li>
+    <li><strong>与第三方SDK合作方：</strong>为提供广告、登录、数据统计等服务，我们会接入优量汇、广点通、Google Mobile Ads、Tap登录等SDK，其可能按照《SDK技术说明文档》中的约定采集部分匿名设备信息；我们要求合作方遵守隐私保护标准；</li>
     <li><strong>法律法规要求：</strong>应司法机关、行政机关要求或为保护公共利益、他人合法权益；</li>
     <li><strong>业务转让：</strong>如公司合并、收购或破产清算，我们会要求继受方继续受本政策约束。</li>
 </ul>
@@ -278,7 +290,7 @@
 <div class="footer-contact">
     <strong>公司名称：广州唬啊科技有限公司</strong><br>
     联系电话：18011803255 &nbsp;|&nbsp;<br>
-    本政策最后更新时间：2026年06月16日
+    本政策最后更新时间：2026年10月16日
 </div>
 
 </body>
